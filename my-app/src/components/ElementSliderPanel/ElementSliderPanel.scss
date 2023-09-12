@@ -1,0 +1,32 @@
+.element_slider_panel {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 40px;
+
+    h5 {
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+
+    h6 {
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+.line {
+    display: block;
+    height: 4px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.line_active {
+    background: rgba(74, 246, 205, 1);
+}
