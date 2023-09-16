@@ -1,0 +1,115 @@
+.section_1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.slide_wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+.name_site {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    h2 {
+        font-size: 12.5em;
+        text-transform: uppercase;
+        opacity: 0.0654;
+    }
+}
+
+.slide_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 120px;
+
+    &>h5 {
+        opacity: 0.5012;
+        font-size: 22px;
+        letter-spacing: 7.333px;
+        font-weight: 400;
+        position: relative;
+        margin-bottom: 10px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: -100px;
+            top: 12px;
+            width: 80px;
+            height: 1px;
+            opacity: 0.5012;
+            background: rgba(255, 255, 255, 1);
+        }
+    }
+
+    &>h3 {
+        font-size: 80px;
+        font-weight: 800;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+
+    &>h4 {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+}
+
+.slider_panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.element_slider_panel_box {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.arrow_down {
+    margin-left: 210px;
+    width: 21px;
+    cursor: pointer;
+}
+
+.parent_arrow {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+
+.box_arrow_slider {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.arrow_back,
+.arrow_next {
+    cursor: pointer;
+}

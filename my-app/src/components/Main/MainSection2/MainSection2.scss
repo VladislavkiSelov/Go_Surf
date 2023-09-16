@@ -1,0 +1,134 @@
+.section2 {
+    background: #171919;
+    padding-top: 150px;
+    position: relative;
+    padding-bottom: 1000px;
+}
+
+.poi {
+    position: absolute;
+    right: 0;
+    top: 185px;
+}
+
+.wrapper_section2 {
+    position: relative;
+
+    .background_text_surf {
+        position: absolute;
+        font-size: 200px;
+        font-weight: 800;
+        line-height: 156px;
+        text-transform: uppercase;
+        opacity: 0.02;
+        top: 100px;
+        left: -120px
+    }
+
+    &>h4 {
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        opacity: 0.5012;
+        position: relative;
+        text-align: end;
+
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 80px;
+            height: 1px;
+            opacity: 0.5;
+            right: 225px;
+            top: 10px;
+            background: rgba(255, 255, 255, 1);
+        }
+    }
+
+    &>h3 {
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: end;
+    }
+}
+
+.h2_surf_section2 {
+    font-size: 80px;
+    font-weight: 800;
+    position: relative;
+    text-transform: uppercase;
+    transform: translateX(-120%);
+    transition: 1s;
+
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 104px;
+        top: 0;
+        width: 80px;
+        height: 1px;
+        display: block;
+        background: rgba(74, 246, 205, 1);
+
+    }
+}
+
+.h2_surf_section2.active_scroll_left {
+transform: translateX(0%);
+}
+
+.word_map {
+    position: relative;
+
+    .map {
+        width: 100%;
+    }
+
+    .airlie_beach {
+        width: 24px;
+        position: absolute;
+        right: 8%;
+        bottom: 18%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .kovalam_surf_club {
+        width: 24px;
+        position: absolute;
+        right: 29%;
+        bottom: 35%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .malibu_beach {
+        width: 24px;
+        position: absolute;
+        left: 23%;
+        bottom: 45%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .vieux_boucau {
+        width: 24px;
+        position: absolute;
+        left: 46%;
+        top: 25%;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .surf_camp_pipa {
+        width: 24px;
+        position: absolute;
+        left: 35%;
+        bottom: 20%;
+        cursor: pointer;
+        z-index: 2;
+    }
+}
