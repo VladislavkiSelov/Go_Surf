@@ -1,0 +1,93 @@
+$color_background: #0F1010;
+
+.airlie_beach {
+    width: 24px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    right: 8%;
+    bottom: 18%;
+}
+
+.kovalam_surf_club {
+    @extend .airlie_beach;
+    right: 29%;
+    bottom: 35%;
+}
+
+.malibu_beach {
+    @extend .airlie_beach;
+    left: 23%;
+    bottom: 45%;
+}
+
+.vieux_boucau {
+    @extend .airlie_beach;
+    left: 46%;
+    bottom: 65%;
+}
+
+.surf_camp_pipa {
+    @extend .airlie_beach;
+    left: 35%;
+    bottom: 20%;
+}
+
+.wrapper_card_beach {
+    display: block;
+    position: absolute;
+    left: -120px;
+    top: -275px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 6px;
+    background: rgba($color_background, 0.7);
+    width: 100%;
+    min-width: 285px;
+}
+
+.card_bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h6 {
+            white-space: nowrap;
+            margin: 10px 0;
+        }
+    }
+}
+
+.card_top {
+    h4 {
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        position: relative;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 1px;
+            background: #4AF6CD;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+        }
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}

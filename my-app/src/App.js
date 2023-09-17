@@ -23,9 +23,9 @@ function App() {
         }
 
         if ((window.scrollY > animItemOffset - animItemPoint) && window.scrollY < (animItemOffset + animItemHeight)) {
-          element.classList.add('active_scroll_left')
+          element.classList.add('active_scroll')
         } else {
-          element.classList.remove('active_scroll_left')
+          element.classList.remove('active_scroll')
         }
       })
     }

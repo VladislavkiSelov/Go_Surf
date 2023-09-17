@@ -25,7 +25,6 @@ const arrayImagePaths = [
 ]
 
 export default function MainSection1() {
-
     let [activeSlide, setActiveSlide] = useState(0);
 
     const clickNextSlide = () => {
@@ -48,10 +47,11 @@ export default function MainSection1() {
 
     useEffect(() => {
         const backgroundSlider = document.querySelector('.slide_wrapper');
-        backgroundSlider.style.cssText += `background:${arrayImagePaths[activeSlide]};
-    transform:translateX(0%)
+        backgroundSlider.style.cssText += `
+        background:${arrayImagePaths[activeSlide]};
     `;
     }, [activeSlide])
+
     return (
         <section className='section_1'>
             <div className='parent_arrow container'>
@@ -87,7 +87,7 @@ export default function MainSection1() {
                     <a href="#section2"><img src="/img/navigation/Down_Arrows.svg" alt="#" /></a>
                 </div>
                 <div className='element_slider_panel_box'>
-                    {elementSliderPanel.map(element => <ElementSliderPanel activeSlide={activeSlide} text={element.text} number={element.number} />)}
+                    {elementSliderPanel.map(element => <ElementSliderPanel activeSlide={activeSlide} text={element.text} number={element.number} setActiveSlide={(value) => setActiveSlide(value)} />)}
                 </div>
             </div>
         </section>
