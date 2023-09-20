@@ -1,0 +1,120 @@
+$color_background: #0F1010;
+
+.slide_section1,
+.slide_section2,
+.slide_section3,
+.slide_section4 {
+    position: relative;
+    width: 400px;
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &>h2 {
+        position: absolute;
+        text-transform: uppercase;
+        left: 40px;
+        top: 70px;
+        font-size: 40px;
+        font-weight: 800;
+        z-index: 10;
+    }
+
+    &>h3 {
+        position: absolute;
+        text-transform: uppercase;
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        bottom: 80px;
+        left: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 8px;
+        z-index: 10;
+    }
+
+    &>img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.slide_section1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.slide_section2 {
+    position: absolute;
+    top: -30px;
+    left: 350px;
+    z-index: 2;
+}
+
+.slide_section3 {
+    position: absolute;
+    top: 30px;
+    left: 710px;
+    z-index: 3;
+}
+
+.slide_section4 {
+    position: absolute;
+    top: -30px;
+    left: 1070px;
+    z-index: 4;
+}
+
+.background_slide_section3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba($color_background, 0.7);
+    z-index: 5;
+    transition: 1s;
+}
+
+.wrapper_btn_slide_dection3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 45px;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    z-index: 10;
+    transition: all 1s ease-out;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 1px;
+        background: rgba(255, 255, 255, 1);
+        right: 180px;
+        top: 45px;
+    }
+
+    button {
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: uppercase;
+        background: rgba(74, 246, 205, 1);
+        margin-left: 20px;
+        border: none;
+        color: rgba(255, 255, 255, 1);
+        padding: 17px;
+        padding-right: 15px;
+
+        svg {
+            margin-left: 15px;
+        }
+    }
+}
