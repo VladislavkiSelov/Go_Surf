@@ -1,0 +1,104 @@
+.section_4 {
+    position: relative;
+
+    .section4_top {
+        h2 {
+            font-size: 80px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 115px;
+            position: relative;
+            transform: translateX(100%);
+            transition: 1s;
+        }
+
+        span {
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 200px;
+            font-weight: 800;
+            text-transform: uppercase;
+            opacity: 0.02;
+        }
+
+        .active_scroll {
+            transform: translateX(0%);
+        }
+    }
+
+    .section4_beach_content {
+        transform: translateX(-100%);
+        transition: 1s;
+
+        h5 {
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: 7.333px;
+            text-transform: uppercase;
+            text-align: end;
+            opacity: 0.5012;
+            position: relative;
+            margin-bottom: 10px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                right: 120px;
+                top: 10px;
+                opacity: 0.5;
+                background: #FFF;
+                width: 80px;
+                height: 1px;
+            }
+        }
+
+        h3 {
+            font-size: 40px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-align: end;
+        }
+
+        margin-bottom: 460px;
+    }
+
+    .section4_location {
+        transform: translateX(100%);
+        transition: 1s;
+        margin-bottom: 80px;
+
+        h5 {
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: 7.333px;
+            text-transform: uppercase;
+            opacity: 0.5012;
+        }
+
+        h4 {
+            font-size: 40px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    }
+
+    .data_location {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            font-size: 40px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    }
+
+    .active_scroll {
+        transform: translateX(0%);
+    }
+}
+
+.section_4_wrapper {
+    background: url('../../../assets/Travel_Image_Copy.png') left 0px bottom 0px / contain no-repeat;
+}

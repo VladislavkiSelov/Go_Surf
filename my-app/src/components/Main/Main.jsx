@@ -2,6 +2,7 @@ import React from 'react';
 import MainSection1 from './MainSection1/MainSection1';
 import MainSection2 from './MainSection2/MainSection2';
 import MainSection3 from './MainSection3/MainSection3';
+import MainSection4 from './MainSection4/MainSection4';
 import './Main.scss';
 
 export default function Main() {
@@ -9,7 +10,8 @@ export default function Main() {
     <div className='main'>
       <MainSection1 />
       <MainSection2 />
-      <MainSection3/>
+      <MainSection3 />
+      <MainSection4 />
     </div>
   )
 }
