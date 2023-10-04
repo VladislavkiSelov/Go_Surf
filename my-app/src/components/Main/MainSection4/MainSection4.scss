@@ -81,16 +81,39 @@
             font-weight: 800;
             text-transform: uppercase;
         }
+
+        div {
+            display: flex;
+            gap: 26px;
+
+        }
     }
 
     .data_location {
         display: flex;
         justify-content: space-between;
 
+        div {
+            min-width: 260px;
+            display: flex;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            opacity: 0.5;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+
         h3 {
             font-size: 40px;
             font-weight: 800;
             text-transform: uppercase;
+            margin-left: 20px;
         }
     }
 
@@ -100,5 +123,18 @@
 }
 
 .section_4_wrapper {
+    position: relative;
     background: url('../../../assets/Travel_Image_Copy.png') left 0px bottom 0px / contain no-repeat;
+
+    .plane {
+        position: absolute;
+        right: 0;
+        top: 550px;
+        transform: translateX(100%);
+        transition: 1.5s;
+    }
+
+    .active_scroll {
+        transform: translateX(0%);
+    }
 }
