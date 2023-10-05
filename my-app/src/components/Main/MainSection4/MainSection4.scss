@@ -120,6 +120,49 @@
     .active_scroll {
         transform: translateX(0%);
     }
+
+    .btn_box {
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: uppercase;
+        z-index: 10;
+        transition: all 1s ease-out;
+        margin-top: 80px;
+        margin-bottom: 320px;
+        position: relative;
+
+        button {
+            font-size: 40px;
+            font-weight: 800;
+            text-transform: uppercase;
+            background: rgb(74, 246, 205);
+            margin-left: 20px;
+            border: none;
+            color: rgb(255, 255, 255);
+            padding: 17px;
+            padding-right: 60px;
+            cursor: pointer;
+        }
+
+        svg {
+            margin-left: 15px;
+            position: absolute;
+            left: 325px;
+            top: 35px;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 1px;
+            background: rgba(255, 255, 255, 1);
+            left: 120px;
+            top: 45px;
+        }
+    }
 }
 
 .section_4_wrapper {
@@ -132,6 +175,14 @@
         top: 550px;
         transform: translateX(100%);
         transition: 1.5s;
+    }
+
+    .glass {
+        transform: translateX(100%);
+        transition: 1s;
+        position: absolute;
+        right: -200px;
+        bottom: 0;
     }
 
     .active_scroll {
