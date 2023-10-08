@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Go_Surf/static/css/main.8362ba53.css",
+    "main.css": "/Go_Surf/static/css/main.253d137d.css",
     "main.js": "/Go_Surf/static/js/main.8eeab1ea.js",
     "static/media/Travel_Image_Copy.png": "/Go_Surf/static/media/Travel_Image_Copy.1aad24aadfd129d2af6b.png",
     "index.html": "/Go_Surf/index.html",
-    "main.8362ba53.css.map": "/Go_Surf/static/css/main.8362ba53.css.map",
+    "main.253d137d.css.map": "/Go_Surf/static/css/main.253d137d.css.map",
     "main.8eeab1ea.js.map": "/Go_Surf/static/js/main.8eeab1ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.8362ba53.css",
+    "static/css/main.253d137d.css",
     "static/js/main.8eeab1ea.js"
   ]
 }
