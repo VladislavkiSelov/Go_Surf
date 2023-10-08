@@ -27,7 +27,7 @@ export default function ElementOnMap({ classElement, altElement, beach, continen
 
     return (
         <div className={`element_on_map_box ${classElement}`} onMouseEnter={onHoverEnter} onMouseLeave={onHoverLeave}>
-            <img src={pathElement === false && "/img/Oval.png" || pathElement === true && "/img/Oval2.svg"} alt={altElement} />
+            <img src={pathElement === false && "https://vladislavkiselov.github.io/Go_Surf//img/Oval.png" || pathElement === true && "https://vladislavkiselov.github.io/Go_Surf//img/Oval2.svg"} alt={altElement} />
             {statusCard === true && <div className='wrapper_card_beach'>
                 <div className='card_top'>
                     <h4>{beach}</h4>
@@ -35,17 +35,17 @@ export default function ElementOnMap({ classElement, altElement, beach, continen
                 </div>
                 <div className='card_bottom'>
                     <div>
-                        <img src="/img/wave.svg" alt="#" />
+                        <img src="https://vladislavkiselov.github.io/Go_Surf//img/wave.svg" alt="#" />
                         <h6>{surfTf}</h6>
                         <p>Surf (FT)</p>
                     </div>
                     <div>
-                        <img src="/img/Water.svg" alt="#" />
+                        <img src="https://vladislavkiselov.github.io/Go_Surf//img/Water.svg" alt="#" />
                         <h6>{tideTf}</h6>
                         <p>Tide (FT)</p>
                     </div>
                     <div>
-                        <img src="/img/Wind.svg" alt="#" />
+                        <img src="https://vladislavkiselov.github.io/Go_Surf//img/Wind.svg" alt="#" />
                         <h6>{windKTS}</h6>
                         <p>Wind (KTS)</p>
                     </div>

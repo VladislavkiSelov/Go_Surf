@@ -67,14 +67,14 @@ export default function MainSection2() {
 
     return (
         <section className='section2' id="section2">
-            <img src="/img/POI.svg" alt="poi" className='poi' />
+            <img src="https://vladislavkiselov.github.io/Go_Surf//img/POI.svg" alt="poi" className='poi' />
             <div className='wrapper_section2 container'>
                 <h2 className='h2_surf_section2 anim_item'>Surf</h2>
                 <h5 className='background_text_surf'>Surf</h5>
                 <h4 className='h4_location_section2 anim_item'>Current location</h4>
                 <h3 className='h3_city_section2 anim_item'>California | USA</h3>
                 <div className='word_map' >
-                    <img src="/img/World_Map_Dots.svg" alt="map" className='map' />
+                    <img src="https://vladislavkiselov.github.io/Go_Surf//img/World_Map_Dots.svg" alt="map" className='map' />
                     {arrayElementOnMap.map(element => <ElementOnMap classElement={element.classElement}
                         altElement={element.altElement}
                         beach={element.beach}

@@ -38,6 +38,11 @@ function App() {
     }
   }
 
+  window.onbeforeunload = function () {
+    window.scrollTo({left:0, top:0});
+  }
+
+
   return (
     <div className='wrapper' >
       <Header />

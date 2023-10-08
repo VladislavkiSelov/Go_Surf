@@ -15,10 +15,10 @@ export default function Header() {
       <div>
         <nav>
           <ul>
-            <li><img src="/img/navigation/Surf.svg" alt="surf" /></li>
-            <li><img src="/img/navigation/Travel.svg" alt="travel" /></li>
-            <li><img src="/img/navigation/Camp.svg" alt="sleep" /></li>
-            <li><img src="/img/navigation/serf_shop.svg" alt="shop" /></li>
+            <li><img src="https://vladislavkiselov.github.io/Go_Surf//img/navigation/Surf.svg" alt="surf" /></li>
+            <li><img src="https://vladislavkiselov.github.io/Go_Surf//img/navigation/Travel.svg" alt="travel" /></li>
+            <li><img src="https://vladislavkiselov.github.io/Go_Surf//img/navigation/Camp.svg" alt="sleep" /></li>
+            <li><img src="https://vladislavkiselov.github.io/Go_Surf//img/navigation/serf_shop.svg" alt="shop" /></li>
           </ul>
         </nav>
         <div className='search'>
@@ -33,7 +33,7 @@ export default function Header() {
           </div>
         </div>
         <div className='location'>
-          <img src="/img/navigation/POI.svg" alt="#" />
+          <img src="https://vladislavkiselov.github.io/Go_Surf//img/navigation/POI.svg" alt="#" />
           <h5>California</h5>
         </div>
       </div>

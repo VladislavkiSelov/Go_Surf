@@ -5,7 +5,6 @@ import './MainSection4.scss'
 export default function MainSection4() {
     return (
         <div className='section_4_wrapper'>
-            <img src="img/plane.png" alt="#" className='plane anim_item' />
             <div className=' section_4 container'>
                 <div className='section4_top'>
                     <h2 className='anim_item'>Travel</h2>
@@ -57,7 +56,8 @@ export default function MainSection4() {
                     </svg>
                 </div>
             </div>
-            <img src="img/glass.png" alt="#" className='glass anim_item' />
+            <img src="https://vladislavkiselov.github.io/Go_Surf//img/plane.png" alt="#" className='plane anim_item' />
+            <img src="https://vladislavkiselov.github.io/Go_Surf//img/glass.png" alt="#" className='glass anim_item' />
         </div>
     )
 }

@@ -12,16 +12,16 @@ const elementSliderPanel = [
 const arrayImagePaths = [
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('/img/slider_main/surf_0.jpg')left 0px bottom 0px / cover no-repeat`,
+        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_0.jpg')left 0px bottom 0px / cover no-repeat`,
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('/img/slider_main/surf_1.jpg')left 0px bottom 0px / cover no-repeat`,
+        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_1.jpg')left 0px bottom 0px / cover no-repeat`,
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('/img/slider_main/surf_2.jpg')left 0px bottom 0px / cover no-repeat`,
+        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_2.jpg')left 0px bottom 0px / cover no-repeat`,
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('/img/slider_main/surf_3.jpg')left 0px bottom 0px / cover no-repeat`
+        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_3.jpg')left 0px bottom 0px / cover no-repeat`
 ]
 
 export default function MainSection1() {
@@ -57,10 +57,10 @@ export default function MainSection1() {
             <div className='parent_arrow container'>
                 <div className='box_arrow_slider'>
                     <div className='arrow_back' onClick={clickBackSlide}>
-                        <img src="/img/arrow2.png" alt="back" />
+                        <img src="https://vladislavkiselov.github.io/Go_Surf//img/arrow2.png" alt="back" />
                     </div>
                     <div className='arrow_next' onClick={clickNextSlide}>
-                        <img src="/img/arrow.png" alt="next" />
+                        <img src="https://vladislavkiselov.github.io/Go_Surf//img/arrow.png" alt="next" />
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ export default function MainSection1() {
             </div>
             <div className='slider_panel container'>
                 <div className='arrow_down'>
-                    <a href="#section2"><img src="/img/navigation/Down_Arrows.svg" alt="#" /></a>
+                    <a href="#section2"><img src="https://vladislavkiselov.github.io/Go_Surf//img/navigation/Down_Arrows.svg" alt="#" /></a>
                 </div>
                 <div className='element_slider_panel_box'>
                     {elementSliderPanel.map(element => <ElementSliderPanel activeSlide={activeSlide} text={element.text} number={element.number} setActiveSlide={(value) => setActiveSlide(value)} />)}

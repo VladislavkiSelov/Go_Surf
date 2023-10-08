@@ -33,10 +33,10 @@ export default function MainSection3() {
         <section className='section3 container_slider_section3'>
             <div className='box_arrow_slider'>
                 <div className='arrow_back'>
-                    <img src="/img/arrow2.png" alt="back" />
+                    <img src="https://vladislavkiselov.github.io/Go_Surf//img/arrow2.png" alt="back" />
                 </div>
                 <div className='arrow_next' >
-                    <img src="/img/arrow.png" alt="next" />
+                    <img src="https://vladislavkiselov.github.io/Go_Surf//img/arrow.png" alt="next" />
                 </div>
             </div>
             <div className='slider_section3'>

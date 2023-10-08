@@ -19,7 +19,7 @@ export default function SlideSection3({ src, alt, classSlide, name, continent })
 
     return (
         <div className={classSlide} onMouseEnter={(e) => showCard(e)} onMouseLeave={(e) => closeCard(e)}>
-            <img src={src} alt={alt} />
+            <img src={`https://vladislavkiselov.github.io/Go_Surf${src}`} alt={alt} />
             <h2>{name}</h2>
             <h3>{continent}</h3>
             <span className='background_slide_section3'></span>

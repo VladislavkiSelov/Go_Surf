@@ -3,6 +3,8 @@ import './Footer.scss'
 
 export default function Footer() {
   return (
-    <div className='footer'>footer</div>
+    <div className='footer'>
+      <h2>© Go-Surf 2018. All Rights Reserved.</h2>
+    </div>
   )
 }

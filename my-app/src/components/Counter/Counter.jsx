@@ -5,8 +5,6 @@ export default function Counter({ time, value }) {
 
     useEffect(() => {
         if (value !== currentValue) {
-            console.log(currentValue);
-            console.log(value);
             setTimeout(() => {
                 setCurrentValue(currentValue + 5)
             }, time)
