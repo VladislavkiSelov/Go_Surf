@@ -22,7 +22,7 @@ export default function Header() {
           </ul>
         </nav>
         <div className='search'>
-          <img alt="search" src="/img/navigation/Search.svg" />
+          <img alt="search" src="https://vladislavkiselov.github.io/Go_Surf/img/navigation/Search.svg" />
         </div>
         <div className='date_now'>
           <h3>{moment().format('DD')}</h3>

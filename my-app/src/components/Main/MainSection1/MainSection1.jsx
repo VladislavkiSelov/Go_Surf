@@ -12,16 +12,16 @@ const elementSliderPanel = [
 const arrayImagePaths = [
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_0.jpg')left 0px bottom 0px / cover no-repeat`,
+        url('https://vladislavkiselov.github.io/Go_Surf/img/slider_main/surf_0.jpg')left 0px bottom 0px / cover no-repeat`,
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_1.jpg')left 0px bottom 0px / cover no-repeat`,
+        url('https://vladislavkiselov.github.io/Go_Surf/img/slider_main/surf_1.jpg')left 0px bottom 0px / cover no-repeat`,
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_2.jpg')left 0px bottom 0px / cover no-repeat`,
+        url('https://vladislavkiselov.github.io/Go_Surf/img/slider_main/surf_2.jpg')left 0px bottom 0px / cover no-repeat`,
     `radial-gradient(62.09% 62.09% at 42.87% 49.23%,
             rgba(34, 34, 34, 0.43) 0%, #0F0F0F 100%),
-        url('https://vladislavkiselov.github.io/Go_Surf//img/slider_main/surf_3.jpg')left 0px bottom 0px / cover no-repeat`
+        url('https://vladislavkiselov.github.io/Go_Surf/img/slider_main/surf_3.jpg')left 0px bottom 0px / cover no-repeat`
 ]
 
 export default function MainSection1() {
