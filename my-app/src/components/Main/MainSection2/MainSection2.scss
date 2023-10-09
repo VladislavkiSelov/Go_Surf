@@ -43,7 +43,7 @@
         width: 80px;
         height: 1px;
         opacity: 0.5;
-        right: 300px;
+        right: 220px;
         top: 10px;
         background: rgba(255, 255, 255, 1);
     }
@@ -98,4 +98,55 @@
     .map {
         width: 100%;
     }
+}
+
+@media(max-width:768px) {
+    .poi {
+        width: 100px;
+    }
+
+    .h2_surf_section2 {
+        font-size: 40px;
+
+        &::before {
+            display: none;
+
+        }
+    }
+
+    .wrapper_section2 {
+        .background_text_surf {
+            display: none;
+        }
+    }
+
+    .word_map {
+        margin-top: 300px;
+    }
+}
+
+
+@media(max-width:520px) {
+    .poi {
+        display: none;
+    }
+
+    .h2_surf_section2 {
+        font-size: 32px;
+    }
+
+    .h4_location_section2 {
+        font-size: 16px;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .h3_city_section2 {
+        font-size: 20px;
+    }
+           .word_map {
+               margin-top: 200px;
+           }
 }

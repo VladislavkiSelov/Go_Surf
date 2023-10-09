@@ -11,6 +11,8 @@
 .slider_section3 {
     display: flex;
     position: relative;
-    min-height: 1250px;
-    width: 100%;
+    min-height: 850px;
+    width: 100vw;
+    overflow-x: scroll;
+    margin-bottom: 200px;
 }

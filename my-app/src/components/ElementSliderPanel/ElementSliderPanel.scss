@@ -31,3 +31,9 @@
 .line_active {
     background: rgba(74, 246, 205, 1);
 }
+
+@media(max-width:920px) {
+    .element_slider_panel {
+     display: none;
+    }
+}

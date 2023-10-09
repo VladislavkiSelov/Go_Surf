@@ -113,3 +113,52 @@
 .arrow_next {
     cursor: pointer;
 }
+
+@media(max-width:768px) {
+    .name_site {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+
+        h2 {
+            font-size: 150px;
+            text-transform: uppercase;
+            opacity: 0.0654;
+        }
+    }
+
+    .slide_text {
+        &>h5 {
+            font-size: 16px;
+
+            &::before {
+                left: -60px;
+                width: 40px;
+            }
+        }
+
+        &>h3 {
+            font-size: 40px;
+        }
+
+        &>h4 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(max-width:420px) {
+    .name_site {
+        h2 {
+            font-size: 85px;
+        }
+    }
+
+    .slide_text {
+        &>h3 {
+            font-size: 32px;
+        }
+
+    }
+}

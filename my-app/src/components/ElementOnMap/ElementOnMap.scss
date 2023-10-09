@@ -92,3 +92,41 @@ $color_background: #0F1010;
         margin-bottom: 30px;
     }
 }
+
+@media(max-width:520px) {
+    .element_on_map_box {
+        &>img {
+            width: 12px;
+        }
+    }
+
+    .wrapper_card_beach {
+        left: -85px;
+        top: -250px;
+        padding: 10px;
+        min-width: 150px;
+    }
+
+    .card_top {
+        h4 {
+            font-size: 16px;
+        }
+
+        h5 {
+            font-size: 14px;
+        }
+    }
+
+    .card_bottom {
+        gap: 10px;
+
+        h6 {
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}

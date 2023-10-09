@@ -108,3 +108,49 @@
 
     margin-bottom: 30px;
 }
+
+@media(max-width:768px) {
+    .header {
+        .header_logo {
+            &>.h2_surf {
+                margin-bottom: 20px;
+                padding: 0 25px;
+            }
+
+            &>h2 {
+
+                &::before {
+                    right: 55px;
+                    bottom: -16px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:420px) {
+    .header {
+        .header_logo {
+            &>.h2_surf {
+                margin-bottom: 20px;
+                font-size: 40px;
+            }
+
+            &>h2 {
+                &::before {
+                    right: 45px;
+                    bottom: -18px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+
+    .date_now {
+        &>h3 {
+            font-size: 40px;
+        }
+    }
+}
